@@ -1,0 +1,5 @@
+Ford,Focus Wagon ZTW,18445,5
+Transmission,automatic,0,manual,-815
+Brakes/Traction Control,Standard,0,ABS,400,ABS with Advance Trac,1625
+Side Impact Air Bags,selected,350,not selected,0
+Power Moonroof,selected,595,not selected,0

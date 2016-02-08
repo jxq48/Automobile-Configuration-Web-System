@@ -1,0 +1,11 @@
+insertAuto=INSERT INTO AUTOMOBILE (Name,baseprice) VALUES ('tmp1','tmp2')
+insertOpset=INSERT INTO OPTIONSET (Name,AutoID) VALUES ('tmp1','tmp2')
+insertOpt=INSERT INTO OPT (Name,price,OptsetID) VALUES ('tmp1','tmp2','tmp3')
+displayAuto=SELECT * FROM AUTOMOBILE
+displayOPTSET=SELECT * FROM OPTIONSET
+displayOPTION=SELECT * FROM OPT
+deleteAuto=DELETE FROM AUTOMOBILE WHERE Name='tmp1'
+updateOptset=UPDATE OPTIONSET SET Name='tmp1' WHERE AutoID='tmp2' AND Name='tmp3'
+updateOpt=UPDATE OPT SET price='tmp1' WHERE OptsetID='tmp2' AND Name='tmp3' 
+findAuto=SELECT * FROM AUTOMOBILE WHERE Name='tmp1'
+findOPTSET=SELECT * FROM OPTIONSET WHERE AutoID='tmp1' AND Name='tmp2'
